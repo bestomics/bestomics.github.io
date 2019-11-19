@@ -1,0 +1,77 @@
+body {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+
+ a {
+     text-decoration: none;
+     color: black;
+    }
+
+#overall {
+  font: normal 40px 'Source Sans Pro', sans-serif;
+  color: black;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  width: 450px;
+  height: 220px;
+}
+
+#carousel {
+  float: left;
+  width: 260px;
+  height: 70px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #21b7f2ff;
+  font: bold 40px 'Source Sans Pro', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#carousel span {
+  display: block;
+  height: 50px;
+  line-height: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+#static {
+  float: 150px;
+  height: 70px;
+  text-align: left;
+  line-height: 65px;
+  margin-left: 0.1em;
+  letter-spacing: 0.02em;
+}
+
+#contact {
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  vertical-align: bottom;
+  line-height: 130px;
+  font: normal 20px 'Source Sans Pro', sans-serif;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#item:last-child {
+  margin-bottom: 0px;
+  letter-spacing: 0.05em;
+}
